@@ -1,0 +1,8 @@
+With the help of Docker-compose deploy the wordpress and mysql container and access the front end of wordpress
+
+First create docker-compose.yml file
+
+Then save it and run command in same folder -> sudo docker-compose up -d
+And then access http://localhost:8000
+
+After doing work, stop services and container using -> sudo docker-compose down

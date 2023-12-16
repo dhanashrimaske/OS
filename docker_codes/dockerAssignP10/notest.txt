@@ -1,0 +1,6 @@
+
+
+10. Create a container with ngnix web server and create one more container with mysql.
+Create a simple web form to insert the records in mysql data base.
+=>
+

@@ -1,0 +1,11 @@
+
+
+Write a Docker File to pull the Ubuntu with open jdk and write any java application.
+=>
+
+1. Create Dockerfile
+2. Create Main.java File
+3. Build docker image - sudo docker build -t my-java-app .
+4. Run container - sudo docker run my-java-app
+
+Output on console -> Hello Docker

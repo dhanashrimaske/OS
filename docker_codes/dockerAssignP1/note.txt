@@ -1,0 +1,8 @@
+Create a web application with simple web page containing login details and create a docker image of the application. (Use of apache web server). Run the docker container from recently created image and run the container at port number 80 in host system
+
+1. Create a simple web flask application- Create app.py
+2. Create index.html in templates folder
+3. Install Flask - pip install Flask
+4. Create DockerFile
+6. Build docker image - docker build -t simple-web-app .
+7. Run Docker container - docker run -p 80:5000 simple-web-app

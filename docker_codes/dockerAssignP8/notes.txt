@@ -1,0 +1,9 @@
+Create a docker image of simple login form using Flask on port 7000.
+=>
+1. Create app.py
+2. Create templates folder - in that create login.html
+3. Create Dockerfile outside templates folder
+4. Build docker image - docker build -t flask-login-app .
+5. Run the container - docker run -p 7000:7000 flask-login-app
+
+Access http://localhost:7000

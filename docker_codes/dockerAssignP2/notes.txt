@@ -1,0 +1,6 @@
+Write a python program to perform arithmetic operations and create docker image accordingly. Run the docker container with the created image 
+
+1. Create calculator.py 
+2. Create Dockerfile
+3. Build docker image -> docker build -t calculator-app .
+4. Run docker container -> docker run calculator-app

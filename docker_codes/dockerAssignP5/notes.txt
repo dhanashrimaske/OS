@@ -1,0 +1,15 @@
+A. Create a simple Hello-world python flask application and create the docker image of that Flask application.
+B. Run the docker container from recently created image and run that docker container to 5000 port of host system.
+
+=>
+1. Create app.py file 
+2. Create Dockerfile 
+3. Build the docker image : sudo docker build -t myflaskapp . 
+(name should be in lowercase only)
+4. Run the docker container: sudo docker run -p 5000:5000 myflaskapp
+ 
+
+if port already allocated then , do --> 
+ docker ps -a 
+ then stop that container -> docker stop container_id 
+ then remove container -> docker rm container_id 

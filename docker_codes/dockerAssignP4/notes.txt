@@ -1,0 +1,10 @@
+Create a web application with simple web page containing login details and create a docker image of the application.(Use Ngnix Web server)
+Run the Docker container from recently created image and run the container at port number 80 in host system.
+
+=>
+1. Create a simple-web-app directory
+2. Create index.html
+3. Create dockerfile
+4. Build docker image -> sudo docker build -t simple-web-app .
+5. Run docker container -> sudo docker run -d -p 80:80 simple-web-app
+6. after running command, open http://localhost:80 in browser

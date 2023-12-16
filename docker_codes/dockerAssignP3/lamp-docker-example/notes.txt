@@ -1,0 +1,18 @@
+Create a simple web application using LAMP stack on docker container
+
+LAMP (Linux, Apache, MySQL, PHP)
+
+Create a lamp-docker-example folder:
+In that folder,
+1. Create Dockerfile
+2. Build docker image : docker build -t lamp-docker-example .
+3. Create docker-compose.yml file
+4. Create index.php in html directory 
+4. start the container -> sudo docker-compose up 
+
+After MYSQL ready for connections : access http://localhost:8080
+
+Error for load meta data --> 
+pull apache image locally
+docker pull php:7.4-apache
+

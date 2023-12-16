@@ -1,0 +1,6 @@
+Create a  LAMP Stack container and host a web application of your own.
+=>
+1. Create index.php 
+2. Create Dockerfile 
+3. Build docker image -> sudo docker build -t lamp-app .
+4. Run a docker container -> sudo docker run -p 8080:80 -d lamp-app

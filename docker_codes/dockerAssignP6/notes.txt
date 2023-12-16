@@ -1,0 +1,11 @@
+Not run
+
+Pull the LAMP Stack container from  docker hub and host a web application of your own.
+=>
+1. Pull mysql image from dockerhub - docker pull mysql:latest
+2. Run mysqlysql container - docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=root mysql:latest
+3. Pull php and apache image - docker pull php:apache
+4. Create directory for web app - mkdir my-web-app  -> index.php in it
+5. docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=root mysql:latest
+5. Run php and apache container - docker run -d --name php-apache-container -p 8080:80 --link mysql-container:mysql -v /home/apurv/Documents/GY/OSS/lab/docker_codes/dockerAssignP6:/var/www/html php:apache
+

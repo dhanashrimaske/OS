@@ -1,0 +1,22 @@
+Not run
+
+Create a docker image of simple login form using django on port 6000.
+=>
+1. Install following
+
+# Install Django (if not already installed)
+pip install django
+
+# Create a new Django project
+django-admin startproject myloginapp
+
+2. Create myloginapp folder - 
+cd myloginapp
+python manage.py startapp login
+
+3. Define Models:
+
+Open login/models.py - define model--> after that run commands
+python manage.py makemigrations
+python manage.py migrate
+

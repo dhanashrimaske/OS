@@ -1,0 +1,9 @@
+Write  a C program to create singly linked list and containerize it.
+=>
+
+1. Create linked_list.c 
+2. Create Dockerfile 
+3. Build docker image -> sudo docker build -t linked-list-app .
+4. Run docker container -> sudo docker run linked-list-app
+
+Program output printed on console

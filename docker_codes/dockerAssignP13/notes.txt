@@ -1,0 +1,2 @@
+Run a LAMP Stack Container at port 8080 and host media wiki site on native machine.
+=>
